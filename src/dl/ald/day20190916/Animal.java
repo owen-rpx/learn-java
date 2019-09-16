@@ -6,7 +6,7 @@ public class Animal {
 		age = 20;
 	}
 
-	public int age = 10;
+	private int age = 10;
 	public String name;
 
 	public void eat() {
