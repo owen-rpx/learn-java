@@ -9,7 +9,8 @@ public class Dog extends Animal {
 	public void eat() {
 		// TODO Auto-generated method stub
 		// super.eat();
-		System.out.println("狗具有吃的能力");
+		this.age = 30;
+		System.out.println("年龄："+ this.age + " 狗具有吃的能力");
 	}
 
 }
