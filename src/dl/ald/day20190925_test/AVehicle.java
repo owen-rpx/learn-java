@@ -10,8 +10,11 @@ package dl.ald.day20190925_test;
 public abstract class AVehicle {
 	public String name;
 	public String type;
+	public String usage;
 	public String engine;
 	public double hgt;
 	public double lng;
 	public double price;
+	
+	public abstract void print();
 }
