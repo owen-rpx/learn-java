@@ -4,7 +4,8 @@ public class PassengerVehicle extends AVehicle implements ICarryPassenger {
 
 	private int passengers;
 
-	public PassengerVehicle(String name,  String usage, String type, String engine, double hgt, double lng, double price) {
+	public PassengerVehicle(String name, String usage, String type,
+			String engine, double hgt, double lng, double price) {
 		this.name = name;
 		this.type = type;
 		this.usage = usage;
@@ -29,9 +30,13 @@ public class PassengerVehicle extends AVehicle implements ICarryPassenger {
 	}
 
 	@Override
-	public void print() {
+	public void print(String no) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("_____________________________________________________________________");
+		System.out.println(no+"\t"+this.usage + "\t"
+				+ this.name + "\t" + this.price
+				+ "/天		车长高:" + this.lng + " "
+				+ this.hgt);
 	}
 
 }

@@ -16,5 +16,5 @@ public abstract class AVehicle {
 	public double lng;
 	public double price;
 	
-	public abstract void print();
+	public abstract void print(String no);
 }
